@@ -36,7 +36,7 @@ numOfValidPassports = 0
 for passport in input:
     if isPassportComplete(passport): numOfValidPassports += 1
     
-print(f'The number of valid passports is {numOfValidPassports}')
+print(f'The number of valid passports is {numOfValidPassports}.')
 
 # Part 2
 input = cleanInput(input)
@@ -63,4 +63,4 @@ for passport in input:
                                 if re.search("^\\d{9}$", getPassportValue('pid', splitPassport)):
                                     numOfValidPassports += 1
 
-print(f'The number of valid passports is {numOfValidPassports}')
+print(f'The number of valid passports is {numOfValidPassports}.')

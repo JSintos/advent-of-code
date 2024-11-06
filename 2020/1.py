@@ -4,11 +4,11 @@ input = [1664,1939,1658,1791,1011,1600,1587,1930,1846,1955,1885,1793,1876,1905,1
 for x in input:
     for y in input:
         if x + y == 2020:
-            print(f'x: {x} and y: {y}. Their product is {x * y}')
+            print(f'x: {x} and y: {y}. Their product is {x * y}.')
 
 # Part 2
 for x in input:
     for y in input:
         for z in input:
             if x + y + z == 2020:
-                print(f'x: {x} and y: {y} and z: {z}. Their product is {x * y * z}')
+                print(f'x: {x} and y: {y} and z: {z}. Their product is {x * y * z}.')

@@ -11,7 +11,7 @@ for index, line in enumerate(input):
         if line[index * 3] == '#':
             treeHit += 1
         
-print(f'Number of trees hit: {treeHit}')
+print(f'Number of trees hit: {treeHit}.')
 
 # Part 2
 productOfTreesHit = 1
@@ -43,4 +43,4 @@ for index, line in enumerate(input):
 
 productOfTreesHit *= treeHit
 
-print(f'Product of trees hit: {productOfTreesHit}')
+print(f'Product of trees hit: {productOfTreesHit}.')
